@@ -7,7 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Eigen3 3.3 REQUIRED)
 find_package(GTest REQUIRED)
-find_package(absl CONFIG REQUIRED)
 find_package(Ceres REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(yaml-cpp REQUIRED)
